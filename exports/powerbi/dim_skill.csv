@@ -1,0 +1,46 @@
+skill,skill_category
+Python,Language
+SQL,Language
+R,Language
+Java,Language
+Scala,Language
+JavaScript,Language
+Excel,BI & Reporting
+Power BI,BI & Reporting
+Tableau,BI & Reporting
+Looker,BI & Reporting
+Qlik,BI & Reporting
+Google Analytics,BI & Reporting
+AWS,Cloud
+Azure,Cloud
+GCP,Cloud
+Spark,Data Engineering
+Hadoop,Data Engineering
+Kafka,Data Engineering
+Airflow,Data Engineering
+Databricks,Data Engineering
+Snowflake,Data Engineering
+dbt,Data Engineering
+ETL,Data Engineering
+Data Warehousing,Data Engineering
+Data Modeling,Data Engineering
+Machine Learning,ML & AI
+Deep Learning,ML & AI
+NLP,ML & AI
+Generative AI,ML & AI
+TensorFlow,ML & AI
+PyTorch,ML & AI
+Scikit-learn,ML & AI
+Computer Vision,ML & AI
+Statistics,Analysis
+Pandas,Analysis
+Data Visualization,Analysis
+SAS,Analysis
+NoSQL,Database
+Git,Tools
+Docker,Tools
+CI/CD,Tools
+Jira,Tools
+Stakeholder Management,Business
+Requirement Gathering,Business
+Communication,Business

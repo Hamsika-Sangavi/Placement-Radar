@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+# raw data is not committed (check the dataset licence on Kaggle before sharing it)
+data/raw/*
+!data/raw/README.md
+# SQLite file is rebuilt by `python -m src.clean`
+data/*.db
