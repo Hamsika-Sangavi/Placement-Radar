@@ -3,9 +3,7 @@
 A job-market dashboard for freshers targeting data and analytics roles in India, with a focus on Hyderabad.
 It answers three questions: **which skills do postings ask for, where are the jobs, and how far am I from them?**
 
-Built with **SQL, Python, Excel and Power BI** (Power BI steps included). The live dashboard is a Streamlit app.
-
-![Overview](docs/img/dash_01_overview.png)
+Built with **SQL, Python, Excel and Power BI** (Power BI steps included). The live dashboard is a Streamlit app featuring a **dark purple-indigo UI** with the DM Sans typeface.
 
 ## What the data says
 
@@ -27,10 +25,6 @@ These are patterns in one snapshot of one job board. They are not forecasts and 
 | Freshers | Fresher-friendly share by role, experience bands, companies that hire freshers |
 | Companies | Biggest hirers with their employee ratings |
 | Skill gap checker | Pick your skills, a role and a city: see the share of postings you are ready for and which single skill unlocks the most more |
-
-![Skill demand by role](docs/img/02_role_skill_heatmap.png)
-![Hyderabad skills](docs/img/04_hyderabad_skills.png)
-![Skill gap checker](docs/img/dash_03_gap_checker.png)
 
 ## How the skill gap score works
 
@@ -68,7 +62,7 @@ app/streamlit_app.py     dashboard
 src/clean.py             parsing and cleaning (experience, locations, role family)
 src/skills.py            skill vocabulary (45 skills) and extraction
 src/analysis.py          demand, city and company summaries, gap score
-src/charts.py            Plotly charts (one blue, one orange highlight, blue heatmap)
+src/charts.py            Plotly charts (purple-indigo palette, violet highlight, purple heatmap)
 src/export.py            Excel workbook and Power BI CSVs
 sql/queries.sql          7 analysis queries
 tests/                   unit tests for parsers, skills and the gap score
